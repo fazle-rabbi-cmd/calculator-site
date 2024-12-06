@@ -202,9 +202,9 @@
   .calculator-buttons .equals:hover {
     background-color: #218838;
   }
-
+  
   /* FAQ Section */
-.faq {
+  .faq {
     background-color: #f9f9f9;
     padding: 20px;
     margin-top: 40px;
@@ -244,8 +244,9 @@
     line-height: 1.5;
     margin: 0;
   }
+  
   /* Contact Section */
-.contact {
+  .contact {
     background-color: #f4f4f4;
     padding: 40px 20px;
     margin-top: 40px;
@@ -307,10 +308,11 @@
   #contact-form button:hover {
     background-color: #357ab7;
   }
+  
   /* General Styles for About, Resources, and Footer Sections */
-
-/* About Section */
-.about {
+  
+  /* About Section */
+  .about {
     background-color: #f9f9f9;
     padding: 40px 20px;
     margin-top: 40px;
@@ -350,55 +352,44 @@
   }
   
   .resources ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    text-align: center;
   }
   
-  .resources li {
+  .resources ul li {
+    font-size: 1.2em;
+    color: #555;
     margin: 10px 0;
-  }
-  
-  .resources a {
-    color: #4a90e2;
-    font-size: 1.1em;
-    text-decoration: none;
-  }
-  
-  .resources a:hover {
-    text-decoration: underline;
-    color: #357ab7;
   }
   
   /* Footer Section */
   footer {
     background-color: #333;
-    color: white;
-    padding: 20px;
+    color: #fff;
     text-align: center;
-    font-size: 1.1em;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
   }
   
   footer p {
+    font-size: 1em;
     margin: 0;
   }
   
-  footer nav {
-    margin-top: 15px;
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .category-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .calculator {
+      width: 100%;
+    }
+    
+    #contact-form {
+      width: 100%;
+      padding: 20px;
+    }
   }
-  
-  footer nav a {
-    color: #4a90e2;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1em;
-  }
-  
-  footer nav a:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
-  
- 
-  
   
