@@ -202,4 +202,203 @@
   .calculator-buttons .equals:hover {
     background-color: #218838;
   }
+
+  /* FAQ Section */
+.faq {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faq-item h4 {
+    font-size: 1.2em;
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+  }
+  /* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact-form label {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  #contact-form input:focus,
+  #contact-form textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  #contact-form button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #357ab7;
+  }
+  /* General Styles for About, Resources, and Footer Sections */
+
+/* About Section */
+.about {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Resources Section */
+  .resources {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resources h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .resources ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .resources li {
+    margin: 10px 0;
+  }
+  
+  .resources a {
+    color: #4a90e2;
+    font-size: 1.1em;
+    text-decoration: none;
+  }
+  
+  .resources a:hover {
+    text-decoration: underline;
+    color: #357ab7;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav {
+    margin-top: 15px;
+  }
+  
+  footer nav a {
+    color: #4a90e2;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+  }
+  
+  footer nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+ 
+  
   
